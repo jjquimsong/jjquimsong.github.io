@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Bibliography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff7f50;
+            padding: 20px;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        section {
+            padding: 30px;
+            margin: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #ff7f50;
+            font-size: 1.8rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            border: 5px solid #ff7f50;
+        }
+
+        .profile {
+            display: inline-block;
+            width: 45%;
+            margin: 20px;
+            vertical-align: top;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #ff7f50;
+            font-size: 1.2rem;
+            margin: 0 15px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #333;
+            text-decoration: underline;
+        }
+
+        .hobbies, .talents, .facts {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .hobby, .talent, .fact {
+            background-color: #ffebcd;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            width: 30%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hobby img, .talent img, .fact img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #ff7f50;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Personal Bibliography - Two Profiles</h1>
+    </header>
+
+    <div class="container">
+        <!-- Person 1 -->
+        <section>
+            <div class="profile">
+                <h2>Person 1: John Doe</h2>
+                <img src="https://via.placeholder.com/200" alt="Profile Image" class="profile-img">
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Age:</strong> 16</p>
+                <p><strong>Birthday:</strong> January 15, 2009</p>
+                <p><strong>Contact:</strong> john.doe@email.com</p>
+                
+                <h3>Hobbies</h3>
+                <div class="hobbies">
+                    <div class="hobby">
+                        <img src="https://via.placeholder.com/80" alt="Hobby Image">
+                        <p>Reading</p>
+                    </div>
+                    <div class="hobby">
+                        <img src="https://via.placeholder.com/80" alt="Hobby Image">
+                        <p>Gaming</p>
+                    </div>
+                    <div class="hobby">
+                        <img src="https://via.placeholder.com/80" alt="Hobby Image">
+                        <p>Coding</p>
+                    </div>
+                </div>
+
+                <h3>Talents/Skills</h3>
+                <div class="talents">
+                    <div class="talent">
+                        <img src="https://via.placeholder.com/80" alt="Talent Image">
+                        <p>Photography</p>
+                    </div>
+                    <div class="talent">
+                        <img src="https://via.placeholder.com/80" alt="Talent Image">
+                        <p>Basketball</p>
+                    </div>
+                    <div class="talent">
+                        <img src="https://via.placeholder.com/80" alt="Talent Image">
+                        <p>Web Design</p>
+                    </div>
+                </div>
+
+                <h3>Interesting Facts</h3>
+                <div class="facts">
+                    <div class="fact">
+                        <img src="https://via.placeholder.com/80" alt="Fact Image">
+                        <p>I speak three languages!</p>
+                    </div>
+                    <div class="fact">
+                        <img src="https://via.placeholder.com/80" alt="Fact Image">
+                        <p>I've been to 5 countries.</p>
+                    </div>
+                    <div class="fact">
+                        <img src="https://via.placeholder.com/80" alt="Fact Image">
+                        <p>My favorite color is teal.</p>
+                    </div>
+                </div>
+
+                <h3>Social Media</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Person 2 -->
+        <section>
+            <div class="profile">
+                <h2>Person 2: Jane Smith</h2>
+                <img src="https://via.placeholder.com/200" alt="Profile Image" class="profile-img">
+                <p><strong>Name:</strong> Jane Smith</p>
+                <p><strong>Age:</strong> 17</p>
+                <p><strong>Birthday:</strong> March 22, 2008</p>
+                <p><strong>Contact:</strong> jane.smith@email.com</p>
+                
+                <h3>Hobbies</h3>
+                <div class="hobbies">
+                    <div class="hobby">
+                        <img src="https://via.placeholder.com/80" alt="Hobby Image">
+                        <p>Photography</p>
+                    </div>
+                    <div class="hobby">
+                        <img src="https://via.placeholder.com/80" alt="Hobby Image">
+                        <p>Painting</p>
+                    </div>
+                    <div class="hobby">
+                        <img src="https://via.placeholder.com/80" alt="Hobby Image">
+                        <p>Traveling</p>
+                    </div>
+                </div>
+
+                <h3>Talents/Skills</h3>
+                <div class="talents">
+                    <div class="talent">
+                        <img src="https://via.placeholder.com/80" alt="Talent Image">
+                        <p>Drawing</p>
+                    </div>
+                    <div class="talent">
+                        <img src="https://via.placeholder.com/80" alt="Talent Image">
+                        <p>Acting</p>
+                    </div>
+                    <div class="talent">
+                        <img src="https://via.placeholder.com/80" alt="Talent Image">
+                        <p>Music Production</p>
+                    </div>
+                </div>
+
+                <h3>Interesting Facts</h3>
+                <div class="facts">
+                    <div class="fact">
+                        <img src="https://via.placeholder.com/80" alt="Fact Image">
+                        <p>I play three musical instruments!</p>
+                    </div>
+                    <div class="fact">
+                        <img src="https://via.placeholder.com/80" alt="Fact Image">
+                        <p>I've been to 10 different countries.</p>
+                    </div>
+                    <div class="fact">
+                        <img src="https://via.placeholder.com/80" alt="Fact Image">
+                        <p>I'm a huge fan of science fiction.</p>
+                    </div>
+                </div>
+
+                <h3>Social Media</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 John Doe and Jane Smith. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
